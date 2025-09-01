@@ -82,7 +82,7 @@ python -m http.server 8080
 
 ---
 
-## 📄 License & Attribution
+## 📄 Attribution
 - This demo HTML lists styles and shaders inline for portability.
 - JWST overlay here is **mock**; it is included for visual context only.
 
