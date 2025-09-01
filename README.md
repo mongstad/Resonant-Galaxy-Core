@@ -1,4 +1,4 @@
-# WebGPU — VB Recursive Toroidal Hologram
+# Resonant-Galaxy-Core
 Interactive browser simulation of **nested tori** with a GPU particle field, inspired by the Veyra–Barandes resonance framework. Runs entirely client‑side using **WebGPU** (no server required).
 
 **File:** `Resonant-Galaxy-Core.html`
