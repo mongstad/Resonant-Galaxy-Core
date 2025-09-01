@@ -1,0 +1,751 @@
+<!--
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [2025] [Johnny Mongstad]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>WebGPU — Recursive Toroidal Hologram: Nested Tori & GPU Particles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        :root { color-scheme: dark; }
+        * { box-sizing: border-box; }
+        body { margin:0; background:#0b0f14; color:#cbd5e1; font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans"; }
+        #row { display:flex; height:100vh; width:100vw; }
+        #gfx { flex:1; position:relative; }
+        #gfx canvas { position:absolute; inset:0; width:100%; height:100%; display:block; }
+        #overlay { pointer-events:none; }
+        #hud { position:absolute; top:10px; right:10px; background:rgba(15,23,42,.75); border:1px solid rgba(148,163,184,.25); border-radius:12px; padding:10px 12px; backdrop-filter: blur(6px); font-size:12px; }
+        #ui { width:380px; padding:14px; overflow:auto; border-left:1px solid #1f2937; background:linear-gradient(180deg,#0f172a,#0b1220); }
+        h1 { font-size:14px; margin:4px 0 12px; color:#93c5fd; }
+        .row { margin:12px 0; }
+        .row label { display:flex; justify-content:space-between; font-size:12px; margin-bottom:6px; }
+        .row input[type="range"] { width:100%; }
+        .small { opacity:.75; font-size:11px; }
+        .pill { background:#0b1220; border:1px solid #1f2a40; border-radius:999px; padding:.25rem .6rem; display:inline-flex; gap:.5rem; align-items:center; }
+        .switch { display:flex; align-items:center; gap:.5rem; }
+        #err { color:#f87171; white-space:pre-wrap; }
+        button { background:#1e40af; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; margin-right:10px; }
+        button:hover { background:#2563eb; }
+        input[type="file"] { display:none; }
+    </style>
+    <style>
+        .collapsed #ui { display: none; }
+        .collapsed #gfx { flex: 1 1 100%; }
+        #collapseBtn {
+            position: absolute; top: 10px; left: 10px; z-index: 100;
+            background: rgba(15,23,42,.75); color: #cbd5e1; border: 1px solid rgba(148,163,184,.25);
+            border-radius: 6px; padding: 4px 8px; cursor: pointer;
+            backdrop-filter: blur(6px);
+        }
+    </style>
+    <!-- Inline JWST points (scaled) -->
+    <script id="jwst_inline" type="application/json">[
+        {"id":"GAL-5315-2778","p":[3.183713727095898,-2.7961427288037095,4.248005737291239],"z_redshift":12.926},
+        {"id":"GAL-0357-3040","p":[5.164950617507547,-3.0363461958880293,0.3223149041305664],"z_redshift":12.908},
+        {"id":"GAL-5317-2782","p":[3.181173944346363,-2.8003168135792023,4.247158824366876],"z_redshift":12.516},
+        {"id":"GAL-0351-3036","p":[5.167638000401501,-3.032299802158718,0.3172938805501451],"z_redshift":12.393},
+        {"id":"GAL-5316-2777","p":[3.1826643597316115,-2.7959694659667873,4.2489060143377575],"z_redshift":11.552},
+        {"id":"GAL-2149-5294","p":[-2.963866158271505,4.788183101017339,-2.0709418115883653],"z_redshift":11.4},
+        {"id":"GAL-2149-5295","p":[-2.964975843627268,4.788376198268935,-2.0689059018134004],"z_redshift":11.4},
+        {"id":"GAL-2149-5296","p":[-2.964174074177955,4.787687004450177,-2.070943601431884],"z_redshift":11.4},
+        {"id":"GAL-2149-5293","p":[-2.964174074177955,4.787687004450177,-2.070943601431884],"z_redshift":11.4},
+        {"id":"GAL-2149-5297","p":[-2.964174074177955,4.787687004450177,-2.070943601431884],"z_redshift":11.4}
+    ]</script>
+</head>
+<body>
+    <div id="row">
+        <div id="gfx">
+            <canvas id="overlay"></canvas>
+            <canvas id="webgpu"></canvas>
+            <div id="hud">FPS: <span id="fps">0</span> | Particles: <span id="part">0</span></div>
+        </div>
+        <div id="ui">
+            <h1>TGP Controls (VB Model Integration)</h1>
+            <div class="row">
+                <label>Torus Major Radius (R)<span id="R_val">10</span></label>
+                <input type="range" min="1" max="50" value="10" id="R">
+            </div>
+            <div class="row">
+                <label>Torus Minor Radius (r)<span id="r_val">3</span></label>
+                <input type="range" min="0.5" max="10" step="0.1" value="3" id="r">
+            </div>
+            <div class="row">
+                <label>Nesting Depth<span id="depth_val">3</span></label>
+                <input type="range" min="1" max="50" value="3" id="depth">
+            </div>
+            <div class="row">
+                <label>Particle Count<span id="n_val">10000</span></label>
+                <input type="range" min="100" max="1000000" step="100" value="10000" id="n">
+            </div>
+            <div class="row">
+                <label>Outflow Speed (β)<span id="beta_val">0.99</span></label>
+                <input type="range" min="0" max="0.999" step="0.001" value="0.99" id="beta">
+                <div class="small">From Eq. 4: Kinematic Doppler factor for CMB redshift</div>
+            </div>
+            <div class="row">
+                <label>Throat Compactness (Ξ)<span id="xi_val">0.99</span></label>
+                <input type="range" min="0" max="1" step="0.01" value="0.99" id="xi">
+                <div class="small">From Eq. 3: Gravitational redshift scale</div>
+            </div>
+            <div class="row">
+                <label>Strong-Field Boost (α_g)<span id="alpha_g_val">3</span></label>
+                <input type="range" min="1" max="5" step="0.1" value="3" id="alpha_g">
+                <div class="small">From Eq. 4: Scales exp(α_g Ξ) for total redshift R</div>
+            </div>
+            <div class="row">
+                <label>Inflow Slope (η - δ)<span id="slope_val">1</span></label>
+                <input type="range" min="0" max="2" step="0.1" value="1" id="slope">
+                <div class="small">From Eq. 6: v(r) ∝ r^-(η-δ) for bulk flows</div>
+            </div>
+            <div class="row">
+                <label>Frame-Dragging (ε_fd)<span id="eps_fd_val">0.1</span></label>
+                <input type="range" min="0" max="0.5" step="0.01" value="0.1" id="eps_fd">
+                <div class="small">From Eq. 7: Azimuthal asymmetry in lensing</div>
+            </div>
+            <div class="row">
+                <label>Number of Tori<span id="numTori_val">1</span></label>
+                <input type="range" min="1" max="10" step="1" value="1" id="numTori">
+            </div>
+            <div class="row">
+                <label>Tilt (rad)<span id="tilt_val">0</span></label>
+                <input type="range" min="0" max="3.14" step="0.01" value="0" id="tilt">
+            </div>
+            <div class="row switch">
+                <label>Enable Cogwheel Coupling<input type="checkbox" id="cogwheel" checked></label>
+                <div class="small">Simulate nested tori energy transfer (Appendix A)</div>
+            </div>
+            <div class="row switch">
+                <label>Enable Phase Shifting<input type="checkbox" id="phase_shift" checked></label>
+                <div class="small">Synaptic transmission with frequency alignment (Appendix B)</div>
+            </div>
+            <div class="row switch">
+                <label>Neural Mode (Firing Synapses)<input type="checkbox" id="neural"></label>
+            </div>
+            <div class="row switch">
+                <label>Show JWST-like (mock) points<input type="checkbox" id="jwst" checked></label>
+            </div>
+            <div class="row">
+                <button id="saveBtn">Save State</button>
+                <label for="loadInput">Load State</label>
+                <input type="file" id="loadInput" accept=".json">
+            </div>
+            <div id="err"></div>
+        </div>
+    </div>
+    <button id="collapseBtn">Collapse UI</button>
+    <script>
+        const row = document.getElementById('row');
+        const collapseBtn = document.getElementById('collapseBtn');
+        collapseBtn.addEventListener('click', () => {
+            row.classList.toggle('collapsed');
+            collapseBtn.textContent = row.classList.contains('collapsed') ? 'Expand UI' : 'Collapse UI';
+        });
+    </script>
+    <script type="module">
+        if (!navigator.gpu) { document.getElementById('err').innerText = 'WebGPU not supported.'; throw new Error('No WebGPU'); }
+        const adapter = await navigator.gpu.requestAdapter();
+        if (!adapter) { document.getElementById('err').innerText = 'No adapter found.'; throw new Error('No adapter'); }
+        const device = await adapter.requestDevice();
+        const canvas = document.getElementById('webgpu');
+        const ctx = canvas.getContext('webgpu');
+        const format = navigator.gpu.getPreferredCanvasFormat();
+        ctx.configure({ device, format, alphaMode: 'premultiplied' });
+
+// UI bindings
+const params = {
+    R: 10, r: 3, depth: 3, n: 10000,
+    beta: 0.99, xi: 0.99, alpha_g: 3, slope: 1, eps_fd: 0.1,
+    numTori: 1, tilt: 0, 
+    cogwheel: true, phase_shift: true, neural: false, jwst: true
+};
+['R', 'r', 'depth', 'n', 'beta', 'xi', 'alpha_g', 'slope', 'eps_fd', 'numTori', 'tilt'].forEach(id => {
+    const el = document.getElementById(id);
+    const val = document.getElementById(id + '_val');
+    el.addEventListener('input', () => { 
+        params[id] = parseFloat(el.value); 
+        val.textContent = el.value; 
+        updateUniforms();
+        if (['R', 'r', 'depth', 'n', 'numTori', 'tilt'].includes(id)) {
+            reinitializeParticles();
+        }
+    });
+    val.textContent = el.value;
+});
+['cogwheel', 'phase_shift', 'neural', 'jwst'].forEach(id => {
+    document.getElementById(id).addEventListener('change', (e) => { params[id] = e.target.checked; updateUniforms(); });
+});
+
+// JWST data
+const jwstData = JSON.parse(document.getElementById('jwst_inline').textContent);
+
+// Buffers (particles, uniforms, etc.)
+const maxParticles = 100000;
+const particleBuffer = device.createBuffer({ size: maxParticles * 16, usage: GPUBufferUsage.STORAGE | GPUBufferUsage.COPY_DST | GPUBufferUsage.COPY_SRC });
+const uniformBuffer = device.createBuffer({ size: 256, usage: GPUBufferUsage.UNIFORM | GPUBufferUsage.COPY_DST });
+
+// JWST buffer
+const jwstBuffer = device.createBuffer({ size: jwstData.length * 16, usage: GPUBufferUsage.STORAGE | GPUBufferUsage.COPY_DST });
+const jwstInit = new Float32Array(jwstData.length * 4);
+for (let i = 0; i < jwstData.length; i++) {
+    const off = i * 4;
+    jwstInit[off] = jwstData[i].p[0];
+    jwstInit[off + 1] = jwstData[i].p[1];
+    jwstInit[off + 2] = jwstData[i].p[2];
+    jwstInit[off + 3] = jwstData[i].z_redshift;
+}
+device.queue.writeBuffer(jwstBuffer, 0, jwstInit);
+
+let uniformData = new Float32Array(16);
+function updateUniforms() {
+    uniformData[0] = params.R;
+    uniformData[1] = params.r;
+    uniformData[2] = params.depth;
+    uniformData[3] = params.beta;
+    uniformData[4] = params.xi;
+    uniformData[5] = params.alpha_g;
+    uniformData[6] = params.slope;
+    uniformData[7] = params.eps_fd;
+    uniformData[8] = params.n;
+    uniformData[9] = params.cogwheel ? 1.0 : 0.0;
+    uniformData[10] = params.phase_shift ? 1.0 : 0.0;
+    uniformData[11] = params.tilt;
+    uniformData[12] = params.numTori;
+    uniformData[13] = params.neural ? 1.0 : 0.0;
+    uniformData[14] = 0.0; // time, set in frame
+    uniformData[15] = 0.0; // padding
+    device.queue.writeBuffer(uniformBuffer, 0, uniformData);
+}
+
+// Compute shader for particle updates (integrate VB equations)
+const computeShader = device.createShaderModule({ code: `
+    struct Uniforms {
+        vec0: vec4<f32>,
+        vec1: vec4<f32>,
+        vec2: vec4<f32>,
+        vec3: vec4<f32>,
+    };
+
+    @group(0) @binding(0) var<storage, read_write> particles: array<vec4<f32>>;
+    @group(0) @binding(1) var<uniform> uniforms: Uniforms;
+
+    fn torus_pos(id: u32, level: f32) -> vec3<f32> {
+        let numTori = uniforms.vec3.x;
+        let tilt = uniforms.vec2.w;
+        let num = u32(numTori);
+        let toriId = id % num;
+        let localId = id / num;
+        let particlesPerTorus = uniforms.vec2.x / numTori;
+        let theta = f32(localId) / particlesPerTorus * 6.283185;
+        let phi = fract(sin(theta) * 43758.5453) * 6.283185;
+        let major = uniforms.vec0.x * level;
+        let minor = uniforms.vec0.y * level;
+
+        var tpos = vec3<f32>(
+            (major + minor * cos(phi)) * cos(theta),
+            (major + minor * cos(phi)) * sin(theta),
+            minor * sin(phi)
+        );
+
+        // Apply tilt (rotation around x-axis)
+        let ct = cos(tilt);
+        let st = sin(tilt);
+        let new_y = tpos.y * ct - tpos.z * st;
+        let new_z = tpos.y * st + tpos.z * ct;
+        tpos.y = new_y;
+        tpos.z = new_z;
+
+        // Add origin offset for multiple tori
+        if (numTori > 1.0) {
+            let angle = f32(toriId) / numTori * 6.283185;
+            let origin = vec3<f32>(cos(angle) * 20.0, sin(angle) * 20.0, 0.0);
+            tpos += origin;
+        }
+
+        return tpos;
+    }
+
+    fn redshift(pos: vec3<f32>) -> f32 {
+        let beta = uniforms.vec0.w;
+        let xi = uniforms.vec1.x;
+        let alpha_g = uniforms.vec1.y;
+        let r_throat = length(pos);  // Simplified throat dist
+        let gamma = 1.0 / sqrt(1.0 - beta * beta);
+        let cos_theta = dot(normalize(pos), vec3<f32>(0.0, 0.0, 1.0));  // Along spin axis
+        return exp(alpha_g * xi) * gamma * (1.0 - beta * cos_theta);
+    }
+
+    fn velocity(pos: vec3<f32>) -> vec3<f32> {
+        let slope = uniforms.vec1.z;
+        let r = length(pos.xy);  // Project to toroidal plane
+        let r0 = uniforms.vec0.y;
+        let v0 = 0.1;  // Normalized
+        let v_mag = v0 * pow(r / r0, -slope);
+        return normalize(vec3<f32>(-pos.y, pos.x, 0.0)) * v_mag;  // Toward intake
+    }
+
+    @compute @workgroup_size(64)
+    fn main(@builtin(global_invocation_id) id: vec3<u32>) {
+        if (id.x >= u32(uniforms.vec2.x)) { return; }
+        var p = particles[id.x];
+        var pos = p.xyz;
+
+        // Apply inflow velocity (Eq. 6)
+        pos += velocity(pos) * 0.01;  // Timestep
+
+        // Cogwheel coupling if enabled (energy transfer)
+        if (uniforms.vec2.y > 0.5) {
+            pos.z += sin(pos.x * 10.0) * 0.005;  // Simulate transfer
+        }
+
+        // Phase shift distortion
+        if (uniforms.vec2.z > 0.5) {
+            let phase = fract(pos.z * 10.0);
+            if (phase > 0.5) { pos = vec3<f32>(pos.xy * 1.01, pos.z); }  // Simple mismatch distortion
+        }
+
+        // Lensing asymmetry (Eq. 7)
+        let b = abs(length(pos.xy) - uniforms.vec0.x);
+        let phi = atan2(pos.y, pos.x);
+        let alpha = 1.0 / b * (1.0 + uniforms.vec1.w * cos(phi));
+        let norm_xy = normalize(pos.xy);
+        let delta_x = alpha * norm_xy.x * 0.01;
+        let delta_y = alpha * norm_xy.y * 0.01;
+        pos.x += delta_x;
+        pos.y += delta_y;
+
+        p = vec4<f32>(pos, redshift(pos));  // Store z for color
+        particles[id.x] = p;
+    }
+`});
+
+const computePipeline = device.createComputePipeline({ layout: 'auto', compute: { module: computeShader, entryPoint: 'main' } });
+const computeBindGroup = device.createBindGroup({
+    layout: computePipeline.getBindGroupLayout(0),
+    entries: [{ binding: 0, resource: { buffer: particleBuffer } }, { binding: 1, resource: { buffer: uniformBuffer } }]
+});
+
+// Render shader with parity/lensing
+const renderShader = device.createShaderModule({ code: `
+    struct Uniforms {
+        vec0: vec4<f32>,
+        vec1: vec4<f32>,
+        vec2: vec4<f32>,
+        vec3: vec4<f32>,
+    };
+
+    struct VertexOut {
+        @builtin(position) position: vec4<f32>,
+        @location(0) color: vec4<f32>,
+    }
+
+    @group(0) @binding(0) var<storage, read> particles: array<vec4<f32>>;
+    @group(0) @binding(1) var<uniform> uniforms: Uniforms;
+
+    @vertex
+    fn vertex_main(@builtin(vertex_index) vid: u32) -> VertexOut {
+        var out: VertexOut;
+        let pos = particles[vid].xyz;
+        let z = particles[vid].w;
+
+        // Project to screen (simple ortho)
+        out.position = vec4<f32>(pos.xy / 50.0, pos.z / 100.0, 1.0);
+
+        // Color by redshift (blue low, red high)
+        out.color = mix(vec4<f32>(0.0,0.0,1.0,1.0), vec4<f32>(1.0,0.0,0.0,1.0), clamp(z / 1000.0, 0.0, 1.0));
+
+        // Neural mode: firing synapses simulation
+        let neural = uniforms.vec3.y;
+        let time = uniforms.vec3.z;
+        if (neural > 0.5) {
+            let depth = uniforms.vec0.z;
+            let particlesPerLevel = uniforms.vec2.x / depth;
+            let lvl = floor(f32(vid) / particlesPerLevel);
+            let fire = sin(time * 10.0 + lvl * 4.0) * 0.5 + 0.5;
+            out.color = mix(out.color, vec4<f32>(1.0, 1.0, 0.0, 1.0), fire);
+        }
+
+        // Parity flip simulation near throat
+        if (length(pos) < uniforms.vec0.y * 1.5) {
+            out.position = vec4<f32>(-out.position.xy, out.position.zw);  // Invert
+        }
+
+        return out;
+    }
+
+    @fragment
+    fn fragment_main(in: VertexOut) -> @location(0) vec4<f32> {
+        return in.color;
+    }
+`});
+
+const renderPipeline = device.createRenderPipeline({
+    layout: 'auto',
+    vertex: { module: renderShader, entryPoint: 'vertex_main' },
+    fragment: { module: renderShader, entryPoint: 'fragment_main', targets: [{ format }] },
+    primitive: { topology: 'point-list' }
+});
+
+const renderBindGroup = device.createBindGroup({
+    layout: renderPipeline.getBindGroupLayout(0),
+    entries: [{ binding: 0, resource: { buffer: particleBuffer } }, { binding: 1, resource: { buffer: uniformBuffer } }]
+});
+
+const jwstBindGroup = device.createBindGroup({
+    layout: renderPipeline.getBindGroupLayout(0),
+    entries: [{ binding: 0, resource: { buffer: jwstBuffer } }, { binding: 1, resource: { buffer: uniformBuffer } }]
+});
+
+// Init particles
+function reinitializeParticles() {
+    const data = new Float32Array(maxParticles * 4);
+    function fract(x) { return x - Math.floor(x); }
+    for (let i = 0; i < maxParticles; i++) {
+        const off = i * 4;
+        const num = params.numTori;
+        const toriId = i % num;
+        const localId = Math.floor(i / num);
+        const particlesPerTorus = Math.floor(maxParticles / num);
+        const d = params.depth;
+        const particlesPerLevel = Math.floor(particlesPerTorus / d);
+        const lvl_id = Math.floor(localId / particlesPerLevel);
+        const local_id = localId % particlesPerLevel;
+        let theta = (local_id / particlesPerLevel) * 2 * Math.PI;
+        let phi = fract(Math.sin(theta) * 43758.5453) * 2 * Math.PI;
+        const scale = Math.pow(0.8, lvl_id);
+        const major = params.R * scale;
+        const minor = params.r * scale;
+        let x = (major + minor * Math.cos(phi)) * Math.cos(theta);
+        let y = (major + minor * Math.cos(phi)) * Math.sin(theta);
+        let z = minor * Math.sin(phi);
+        // tilt
+        const ct = Math.cos(params.tilt);
+        const st = Math.sin(params.tilt);
+        const new_y = y * ct - z * st;
+        const new_z = y * st + z * ct;
+        y = new_y;
+        z = new_z;
+        // offset
+        if (num > 1) {
+            const angle = (toriId / num) * 2 * Math.PI;
+            x += Math.cos(angle) * 20;
+            y += Math.sin(angle) * 20;
+        }
+        data[off] = x;
+        data[off+1] = y;
+        data[off+2] = z;
+        data[off+3] = 1.0;
+    }
+    device.queue.writeBuffer(particleBuffer, 0, data);
+}
+reinitializeParticles();
+updateUniforms();
+
+// Save state
+const saveBtn = document.getElementById('saveBtn');
+saveBtn.addEventListener('click', async () => {
+    const size = params.n * 16; // Only save active particles
+    const readBuffer = device.createBuffer({ size, usage: GPUBufferUsage.MAP_READ | GPUBufferUsage.COPY_DST });
+    const encoder = device.createCommandEncoder();
+    encoder.copyBufferToBuffer(particleBuffer, 0, readBuffer, 0, size);
+    device.queue.submit([encoder.finish()]);
+
+    await readBuffer.mapAsync(GPUMapMode.READ);
+    const data = new Float32Array(readBuffer.getMappedRange().slice(0));
+    readBuffer.unmap();
+
+    const state = {
+        params: { ...params },
+        particles: Array.from(data)
+    };
+
+    const blob = new Blob([JSON.stringify(state)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'tgp_state.json';
+    a.click();
+    URL.revokeObjectURL(url);
+});
+
+// Load state
+const loadInput = document.getElementById('loadInput');
+loadInput.addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+        const state = JSON.parse(ev.target.result);
+        // Update params and UI
+        Object.keys(state.params).forEach(key => {
+            params[key] = state.params[key];
+            const el = document.getElementById(key);
+            if (el) {
+                if (el.type === 'range') {
+                    el.value = params[key];
+                    document.getElementById(key + '_val').textContent = params[key];
+                } else if (el.type === 'checkbox') {
+                    el.checked = params[key];
+                }
+            }
+        });
+        updateUniforms();
+
+        // Write particles
+        const particleData = new Float32Array(state.particles);
+        device.queue.writeBuffer(particleBuffer, 0, particleData);
+    };
+    reader.readAsText(file);
+});
+
+// Animation loop
+let last = 0, fps = 0, time = 0;
+function frame(now) {
+    now *= 0.001;
+    const dt = now - last;
+    last = now;
+    time += dt;
+    fps = Math.round(1 / dt);
+    document.getElementById('fps').textContent = fps;
+    document.getElementById('part').textContent = params.n;
+
+    uniformData[14] = time;
+    device.queue.writeBuffer(uniformBuffer, 0, uniformData);
+
+    const commandEncoder = device.createCommandEncoder();
+    const computePass = commandEncoder.beginComputePass();
+    computePass.setPipeline(computePipeline);
+    computePass.setBindGroup(0, computeBindGroup);
+    computePass.dispatchWorkgroups(Math.ceil(params.n / 64));
+    computePass.end();
+
+    const textureView = ctx.getCurrentTexture().createView();
+    const renderPass = commandEncoder.beginRenderPass({
+        colorAttachments: [{ view: textureView, clearValue: [0, 0, 0, 1], loadOp: 'clear', storeOp: 'store' }]
+    });
+    renderPass.setPipeline(renderPipeline);
+    renderPass.setBindGroup(0, renderBindGroup);
+    renderPass.draw(params.n);
+
+    // Optional: Draw JWST points if enabled
+    if (params.jwst) {
+        renderPass.setBindGroup(0, jwstBindGroup);
+        renderPass.draw(jwstData.length);
+    }
+
+    renderPass.end();
+
+    device.queue.submit([commandEncoder.finish()]);
+    requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+
+// Resize handler
+new ResizeObserver(() => {
+    canvas.width = canvas.clientWidth * devicePixelRatio;
+    canvas.height = canvas.clientHeight * devicePixelRatio;
+}).observe(canvas);</script></body></html>
+
