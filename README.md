@@ -86,3 +86,6 @@ python -m http.server 8080
 - This demo HTML lists styles and shaders inline for portability.
 - JWST overlay here is **mock**; it is included for visual context only.
 
+## License
+This project is licensed under the Apache 2.0 License – see the [Apache License 2.0](LICENSE) file for details.
+
